@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const StyledContainer = styled.div`
   width: 90%;
   padding: 40px;
   background-color: orange;

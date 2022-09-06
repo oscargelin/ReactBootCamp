@@ -1,8 +1,10 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { Container } from "./styles/Container.styled";
+import { StyledContainer } from "./styles/Container.styled";
 import Header from "./components/Header";
 import { GlobalStyles } from "./styles/Global";
+import { StyledButton } from "./styles/Button.styled";
+import Button from "./components/Button";
 
 const theme = {
   colors: {
@@ -19,7 +21,9 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Header />
-        <Container></Container>
+        <Button />
+        <StyledButton color="#fff" backgroundColor="green" />
+        <StyledContainer></StyledContainer>
       </ThemeProvider>
     </>
   );
