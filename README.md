@@ -1,3 +1,5 @@
+typically you'll see a react component and then you'll have a corresponind style component for it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
